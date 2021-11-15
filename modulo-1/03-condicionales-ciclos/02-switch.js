@@ -1,5 +1,6 @@
-const nombre = "anthony";
+const nombre = "adadad";
 
+// break va a permitir que salgamos del switch
 switch (nombre) {
   case "tony":
     console.log("Bienvenido tony");

@@ -1,9 +1,12 @@
-const persona = "anthony";
+const persona = "anthony"; // false
 const edad = 18;
-console.log(persona.length);
-console.log(persona.split(""));
+// console.log(persona.length); // cuenta los caracteres de dicho valor de la variable
+
+const persona2 = ["a", "n", "t", "h"];
+// console.log(persona2[1]); //n
+// console.log(persona.split("")[0]); //a
 /* slice */
-console.log(persona.slice(0, 4));
+// console.log(persona.slice(0, 4)); // anth
 
 if (edad < 18) {
   console.log("No puedes ingresar!");
@@ -22,11 +25,12 @@ const mensaje = persona ? "Bienvenido anthony" : "No puedes ingresar anthony";
 
 console.log(mensaje);
 
+// persona = "tony";
 {
-  const persona = "pepe";
+  // const persona = "pepe";
   let presidente = "Bush";
-  console.log(persona, presidente);
+  console.log(presidente);
 }
 
-console.log(persona);
-console.log(presidente);
+// console.log(persona);
+// console.log(presidente);

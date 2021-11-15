@@ -26,23 +26,26 @@ const products = {
   ],
 };
 
-// console.log(products.nombreEmpresa);
-console.log(products["nombreEmpresa"]);
+// asignación de punto
+console.log(products.data);
+// console.log(products["nombreEmpresa"]);
 
-console.log(alumnos[2]); //luhana
+// console.log(alumnos[2]); //luhana
 // metodos de arrays
 
 // iteración de arrays
 
 // map =  devuelve un array nuevo
-const bienvenida = alumnos.map(
-  (alumno) => `Bienvenido al curso Javacript - ${alumno}`
-);
+const mensajeDeBienvenida = alumnos.map((alumno) => {
+  return `Bienvenido al curso de javascript para reactjs - ${alumno}`;
+});
 
-console.log(bienvenida);
+console.log(mensajeDeBienvenida);
 
-// find
+// find => encuentra y devuelve la primera que cumpla
 const buscar_valor = alumnos.find((alumno) => alumno === "luhana");
+const buscarProduct = products.data.find((p) => p.precio === 2000);
+console.log(buscarProduct);
 console.log(`Se encontro el valor y es: ${buscar_valor}`);
 
 // filter
