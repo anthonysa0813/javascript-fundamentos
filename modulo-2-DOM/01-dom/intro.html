@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <h1 id="title">DOM</h1>
+
+    <ul>
+      <li>Document => html es un tipo de documento</li>
+      <li>Object => todas las etiquetas en html son objetos</li>
+      <li>Model => es la estructura que tiene nuestro html</li>
+    </ul>
+
+    <details>
+      <summary>Document</summary>
+      <ul>
+        <li>document.doctype</li>
+        <li>document.documentElement</li>
+        <li>
+          document.head
+          <ul>
+            <li>document.charset</li>
+            <li>document.title</li>
+          </ul>
+        </li>
+        <li>
+          document.body
+          <ul>
+            <li>document.links</li>
+            <li>document.images</li>
+          </ul>
+        </li>
+        <li>document.scripts</li>
+      </ul>
+    </details>
+
+    <ul>
+      <li>El término correcto para deferirnos al dom es "NODOS"</li>
+      <li>
+        los NODOS tienen algunas propiedades comor:
+        <ul>
+          <li>.nodeType</li>
+          <li>nodeName</li>
+          <li>textContent</li>
+        </ul>
+      </li>
+    </ul>
+    <details>
+      <summary>Seleccionar Nodos</summary>
+      <ul>
+        <li>document.getElementById()</li>
+        <li>docuemnt.querySelector()</li>
+        <li>document.querySelectorAll()</li>
+      </ul>
+    </details>
+    <details>
+      <summary>ATRIBUTOS</summary>
+      <ul>
+        <li>elemento.getAttribute('value')</li>
+        <li>setAttribute()</li>
+        <li>
+          classList
+          <ul>
+            <li>.adad()</li>
+            <li>.remove()</li>
+            <li>.toggle()</li>
+          </ul>
+        </li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Contenido</summary>
+      <ul>
+        <li>textContent</li>
+        <li>innerHTML</li>
+        <li>outerHTML</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Crear Elementos</summary>
+      <ul>
+        <li>document.createElement()</li>
+        <li>element.appendChild()</li>
+      </ul>
+    </details>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
