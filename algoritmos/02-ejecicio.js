@@ -4,7 +4,7 @@ Ejercicio:
 las siguientes conclusiones:
 1) Si es mayor de edad, debes de retonar un mensaje satisfactorio con algun mensaje
 con su nombre que ha escrito en el input (prompt).
-2) Realiza la misma iteración para el caso contrario si la persona tiene un edad, en caso de ser menor de edad
+2) Realiza la misma funcionalidad para el caso contrario, si es menor de edad.
 
 
 NOTA:
