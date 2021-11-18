@@ -11,3 +11,17 @@ NOTA:
 - para capturar información, investigar sobre un método llamado
 "prompt"
 */
+
+const nombre = prompt("Hola! dime tu nombre: ");
+const edad = prompt("ahora, dime tu edad: ");
+
+// if (edad >= 18) {
+//   alert(`Bienvenido ${nombre}, disfruta tu visita :)`);
+// } else {
+//   alert(`hey! ${nombre}, no puedes ingresar hasta que cumplas 18 :)`);
+// }
+
+/* con ecmaScript (ternarios) */
+edad >= 18
+  ? alert(`Bienvenido ${nombre}, disfruta tu visita :)`)
+  : alert(`hey! ${nombre}, no puedes ingresar hasta que cumplas 18 :)`);
